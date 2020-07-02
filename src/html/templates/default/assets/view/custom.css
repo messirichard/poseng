@@ -1,0 +1,221 @@
+.m-login__logo img {
+	width: 125px;
+}
+.m-login__form-action button {
+	margin-bottom: 15px;
+}
+.m-brand__logo-wrapper img {
+	height: 40px;
+}
+.login-splashlogo {
+    margin-bottom: 100px;
+    min-width: 150px;
+    max-width: calc(50% - 50px);
+}
+.m-login__content .m-grid__item {
+	text-align: center;
+	padding: 20px;
+}
+.form-margin {
+	margin: 20px;
+}
+.easy-autocomplete {
+	width: inherit!important;
+}
+.easy-autocomplete-container ul {
+    border: 1px solid #eee;
+    border-radius: 5px;
+	background: #fff;
+	width: calc(100% - 30px);
+	padding: 5px 15px;
+	display: none;
+    list-style: none;
+	position: absolute;
+    z-index: 1;
+}
+.m-card-profile__pic-wrapper {
+	position: relative;
+}
+.m-card-profile__pic-wrapper .cam-avatar {
+	position: absolute;
+    width: 30px;
+    bottom: 10px;
+    opacity: 0.4;
+    left: calc(100% / 2 - 15px);
+}
+.file-avatar {
+	display: none;
+}
+.api_with_selected, .devices_with_selected, .users_with_selected {
+    display: inline-block;
+}
+.api_with_selected .m-form__label, .api_with_selected .m-form__control, .devices_with_selected .m-form__label, .devices_with_selected .m-form__control, .users_with_selected .m-form__label, .users_with_selected .m-form__control {
+	display: inline-block;
+}
+.widget-container .m-portlet__body {
+	padding: 0.5rem 2.2rem;
+}
+.widget-thumb {
+	overflow: hidden;
+}
+.widget-thumb>img {
+	height: auto;
+	max-width: 100%;
+	transition: transform .5s ease;
+}
+.widget-thumb:hover>img {
+	transform: scale(1.3);
+}
+.widget-thumb-add {
+	overflow: hidden;
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+}
+.widgets-preview {
+	position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+}
+.widget-title {
+	position: relative;
+    margin: 1rem -1.5rem 0.8rem -1.5rem;
+}
+.widgets_element_add, .widgets_element_add:hover, .widgets_element_add:focus {
+	border: none;
+}
+.widgets-thumb-img {
+    position: absolute;
+    width: 50px;
+    bottom: 10px;
+    opacity: 0.4;
+    left: calc(100% / 2 - 25px);
+}
+.widget-card:last-of-type {
+	cursor: pointer;
+}
+.widget-card:last-of-type .widget-card-button {
+	visibility:hidden;
+}
+.widget-default-widgets-img {
+	height: 50px;
+}
+#widgets_logo_info, #default_logo_info {
+	text-align: center;
+}
+.cam-avatar:hover, .widgets-thumb-img:hover {
+	cursor: pointer;
+}
+#tbl_api_filter,#tbl_devices_filter,#tbl_users_filter,#tbl_billing_filter {
+	margin-right: 15px;
+}
+.m-badge.m-badge--sleeping {
+	background-color: #ff0;
+	color: #000;
+}
+.billing-btn-pay {
+	cursor: pointer;
+}
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container.m-invoice__container--centered, .m-invoice-2 .m-invoice__wrapper .m-invoice__body.m-invoice__body--centered, .m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table.m-invoice__table--centered {
+	width: calc(100% - 100px);
+}
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container.m-invoice__container--centered .m-invoice__logo {
+	padding-top: 7rem;
+}
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__items {
+	padding: 2rem 0 3rem 0;
+}
+.m-invoice-2 .m-invoice__wrapper .m-invoice__footer {
+	margin-top: 1rem;
+	padding: 3rem 0 3rem 0;
+}
+.m-invoice-2 .m-invoice__wrapper .m-invoice__footer .inv-price {
+	text-align: right;
+    font-size: 1.1rem!important;
+}
+.m-pricing-table-2__label {
+    position: relative!important;
+}
+.m-pricing-table-2__price {
+	display: block;
+}
+.cfg_number {
+	text-align: right;
+}
+.strikethrough-diagonal {
+	background: linear-gradient(to left top, transparent 47%, #f00 49%, #f00 51%, transparent 53%);
+	font-size: 30px!important;
+    color: #9699a2!important;
+	width: max-content;
+    margin: 0 auto;
+}
+.paypal-button-container {
+	width: 150px;
+    margin: 0 auto;
+}
+.paypal-upgrade {
+	background: powderblue;
+    padding: 5px 20px 30px 20px;
+    border-radius: 20px;
+    height: 50px;
+    top: -3px;
+	position: relative;
+	text-transform: lowercase;
+}
+.paypal-upgrade:after {
+	content: "";
+    width: 100%;
+    height: 25px;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.button--upgrade-contact {
+	position: absolute;
+	height: 40px;
+    font-size: inherit!important;
+    display: block;
+    width: 150px;
+    left: calc(50% - 75px);
+    margin: 0 auto;
+	padding: 11px!important;
+}
+@media screen {
+	#printSection {
+		display: none;
+	}
+}
+
+@media print {
+	body * {
+		visibility:hidden;
+	}
+	#printSection, #printSection * {
+		visibility:visible;
+	}
+	#printSection {
+		position:absolute;
+		left:0;
+		top:0;
+	}
+}
+
+@media (max-width: 768px) {
+	.login-splashlogo {
+		margin: 30px auto;
+	}
+}
+@media (min-width: 880px) {
+	.upgrade-window {
+		min-width: 880px;
+	}
+}
+@media (min-width: 992px) {
+	.m-pricing-table-2__features {
+	}
+}

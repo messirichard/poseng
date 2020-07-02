@@ -1,0 +1,104 @@
+.price-tag-right {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.price-tag-left {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.tag-right {
+    background-color: green;
+    border-left: 1px solid green;
+	margin-left: 19px;
+}
+.tag-right:before {
+    border-right: 19px solid green;
+	left: -19px;
+}
+.tag-right:after {
+	left: -9px;
+}
+
+.tag-left {
+    background-color: green;
+    border-right: 1px solid green;
+	margin-right: 19px;
+}
+.tag-left:before {
+    border-left: 19px solid green;
+	right: -19px;
+}
+.tag-left:after {
+	right: -9px;
+}
+
+.tag-left2 {
+    background-color: orangered;
+    border-right: 1px solid orangered;
+	margin-right: 19px;
+}
+.tag-left2:before {
+    border-left: 19px solid orangered;
+	right: -19px;
+}
+.tag-left2:after {
+	right: -9px;
+}
+
+.tag {
+	display: inline-block;
+    width: auto;
+	height: 38px;
+	-webkit-border-radius: 3px 4px 4px 3px;
+	-moz-border-radius: 3px 4px 4px 3px;
+	border-radius: 3px 4px 4px 3px;
+	position: relative;
+	color: white;
+	font-weight: 300;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	line-height: 38px;
+	padding: 0 10px 0 10px;
+}
+
+/* Makes the triangle */
+.tag:before {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: 19px solid transparent;
+	border-bottom: 19px solid transparent;
+}
+
+/* Makes the circle */
+.tag:after {
+	content: "";
+	background-color: white;
+	border-radius: 50%;
+	width: 4px;
+	height: 4px;
+	display: block;
+	position: absolute;
+	top: 17px;
+}
+
+.tag-diagonal {
+    font-size: 30px!important;
+    color: #9699a2!important;
+    width: max-content;
+    margin: 0 auto;
+    border-top: 2px solid red;
+    -transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    width: 80px;
+    left: 5px;
+    top: 18px;
+    position: absolute;
+}

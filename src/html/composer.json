@@ -1,0 +1,7 @@
+{
+    "require": {
+        "paypal/paypal-checkout-sdk": "1.0.0",
+        "php-curl-class/php-curl-class": "^8.6",
+        "vlucas/phpdotenv": "^5.0"
+    }
+}
