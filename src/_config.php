@@ -8,15 +8,15 @@ error_reporting(E_ALL);
 
 
 
-$dbhost = getenv['DB_SERVER'];
-$username = getenv['DB_USER'];
-$password = getenv['DB_PASS'];
-$dbname = getenv['DB_NAME'];
+$dbhost = getenv('DB_SERVER');
+$username = getenv('DB_USER');
+$password = getenv('DB_PASS');
+$dbname = getenv('DB_NAME');
 
-$email_smtp = getenv['EML_SMTP'];
-$email_port = getenv['EML_PORTS'];
-$email_user = getenv['EML_USER'];
-$email_pass = getenv['EML_PASS'];
+$email_smtp = getenv('EML_SMTP');
+$email_port = getenv('EML_PORTS');
+$email_user = getenv('EML_USER');
+$email_pass = getenv('EML_PASS');
 // $email_user_nr = getenv[''];
 // $email_pass_nr = getenv[''];
 
