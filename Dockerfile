@@ -23,7 +23,7 @@ RUN apt-get update -y && apt-get install -y sendmail libpng-dev && \
     docker-php-ext-enable opcache && \
     docker-php-ext-install zip && \
     docker-php-ext-enable zip && \
-    a2enmod ssl && \
+    a2dismod ssl && \
     a2enmod headers && \
     cd /etc/apache2 && \
     echo "ServerTokens Prod" >> apache2.conf && \

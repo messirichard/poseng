@@ -5,6 +5,9 @@ Options -Indexes
 Options +FollowSymLinks
 RewriteEngine on
 
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://web-dev.samelement.com/$1 [R,L]
+
 #RewriteCond %{HTTPS} off
 #RewriteCond %{REMOTE_ADDR} !^127.0.0.1$
 #RewriteRule . - [R=403,NC]
